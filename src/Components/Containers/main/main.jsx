@@ -3,7 +3,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './main.css';
 
 import Sidebar from '../../Forms/Sidebar/sidebar.jsx';
-import Apphead from '../../Containers/apphead/Apphead.jsx';
+import Apphead from '../../Containers/apphead/apphead.jsx';
 import Quaters from '../../Containers/appquaters/appquaters.jsx';
 
 
