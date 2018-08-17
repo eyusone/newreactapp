@@ -1,5 +1,18 @@
-#qeq:hover {
+/*.contents:hover {
 		background: gray;
-		transition-property: background;
-		transition-delay: 0.4s;
+}*/
+
+.contents {
+	/*height: 150px;*/
+	min-height: 35vh;
+	text-align: center;
+	background: #F5ECEA; 
+    border: 2px solid #DED2CF; 
+    border-radius: 5px;
+    
+}
+
+.txts {
+	overflow-y: auto;
+	/*height: 50px;*/
 }

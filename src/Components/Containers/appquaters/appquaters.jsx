@@ -10,19 +10,17 @@ export default class Quaters extends Component {
     }
 
 	render() {
-const options = {
-  onMouseEnter:true
-}
         return (
         	<div className = "container p-4">
         		<div className = "row align-items-start justify-content-center">
-        			<div className = "col-5 p-1 qeq mr-4 mb-4" style = {{minHeight: '35vh', textAlign: 'center', 
-                    background: '#F5ECEA', border: '2px solid #DED2CF', borderRadius: '5px'}} id = 'qeq'>
+        			<div className = "col-5 p-1 mr-4 mb-4 contents">
         			    <h3 className = 'p-1' style = {{ borderBottom: '2px solid #A54BE0'}}>LOOK AT ME</h3>
+                        <div className = 'txts'>
                         <p>Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.</p>
-                        <Button classname = 'btn' color = 'primary'>NEXT</Button>
+                        <Button className = 'btn' color = 'primary'>NEXT</Button>
+                        </div>
         			</div>
                     <div className = "col-5 p-1 qeq mr-4 mb-4" style = {{minHeight: '35vh', textAlign: 'center', 
                     background: '#F5ECEA', border: '2px solid #DED2CF', borderRadius: '5px'}} id = 'qeq'>
@@ -30,7 +28,7 @@ const options = {
                         <p>Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.</p>
-                        <Button classname = 'btn' color = 'primary'>NEXT</Button>
+                        <Button className = 'btn' color = 'primary'>NEXT</Button>
                     </div>
                     <div className = "col-5 p-1 qeq mr-4 mb-4" style = {{minHeight: '35vh', textAlign: 'center', 
                     background: '#F5ECEA', border: '2px solid #DED2CF', borderRadius: '5px'}} id = 'qeq'>
@@ -38,7 +36,7 @@ const options = {
                         <p>Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.</p>
-                        <Button classname = 'btn' color = 'primary'>NEXT</Button>
+                        <Button className = 'btn' color = 'primary'>NEXT</Button>
                     </div>
                     <div className = "col-5 p-1 qeq mr-4 mb-4" style = {{minHeight: '35vh', textAlign: 'center', 
                     background: '#F5ECEA', border: '2px solid #DED2CF', borderRadius: '5px'}} id = 'qeq'>
@@ -46,9 +44,8 @@ const options = {
                         <p>Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.</p>
-                        <Button classname = 'btn' color = 'primary'>NEXT</Button>
+                        <Button className = 'btn' color = 'primary'>NEXT</Button>
                     </div>
-                    
         		</div>
         	</div>
         )

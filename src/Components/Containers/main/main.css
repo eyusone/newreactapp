@@ -15,6 +15,12 @@
 }
 
 .main {
-	margin-left: 325px;
+	margin-left: auto;
+}
+
+@media (min-width: 280px) and (max-width: 450px) {
+.device {
+	
+}
 }
 

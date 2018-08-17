@@ -5,12 +5,15 @@ import './App.css';
 import 'bootswatch/dist/pulse/bootstrap.css';
 
 import ScrollDown from './Components/Forms/ScrollDown/scrolldown.jsx';
-import Main from './Components/Containers/main/main.jsx';
+import Maindevice from './Components/Containers/main/maindevice.jsx';
+
 
 const Routes = () => (
 
   <Switch>
-  <Route exact path='/' component={Main}/>
+  <Route exact path='/public' render={(props) => 
+  	(<Maindevice {...props} load = {true}/>)
+  }/>
   </Switch>
   )
 

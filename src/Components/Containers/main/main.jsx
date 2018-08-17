@@ -12,14 +12,10 @@ export default class Main extends Component {
     	super(props);
     }
 
-    componentDidMount() {
-    	
-    }
-    
 	render() {        
     
     return (
-    	<div className = "container-fluid m-0 p-0">
+    	<div className = "container-fluid m-0 p-0 device">
     		<div className = "row m-0">
     			<div className = "col-3 m-0 p-0 sidebar">
     			    <Sidebar />
