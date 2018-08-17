@@ -10,7 +10,7 @@ import Main from './Components/Containers/main/main.jsx';
 const Routes = () => (
 
   <Switch>
-  <Route exact path='/public' component={Main}/>
+  <Route exact path='/' component={Main}/>
   </Switch>
   )
 
