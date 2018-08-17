@@ -11,7 +11,7 @@ import Maindevice from './Components/Containers/main/maindevice.jsx';
 const Routes = () => (
 
   <Switch>
-  <Route exact path='/public' render={(props) => 
+  <Route exact path='/' render={(props) => 
   	(<Maindevice {...props} load = {true}/>)
   }/>
   </Switch>
