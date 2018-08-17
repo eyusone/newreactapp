@@ -1,0 +1,5 @@
+#qeq:hover {
+		background: gray;
+		transition-property: background;
+		transition-delay: 0.4s;
+}

@@ -1,0 +1,42 @@
+.header {
+	border-radius: 20px 20px 0 0;
+	background: #569099;
+	padding: 10px
+}
+
+.txt {
+  font-size: 1em;
+  background: #cad8d0;
+  margin-top: 0;
+  border-radius: 0 0 20px 20px;
+  padding: 10px;
+}
+
+p {
+	font-size: 1em;
+}
+
+.fill-viewport {
+  min-height: 100vh;
+}
+
+.body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.footer-viewport {
+  min-height: 15vh;
+  @media (min-width: 768px) {
+    min-height: 10vh;
+  }
+}
+
+.navbar-viewport {
+  min-height: 5vh;
+}
+
+.main-viewport {
+  min-height: 95vh;
+}
+

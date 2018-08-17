@@ -1,0 +1,20 @@
+/*.main {
+	overflow: scroll;
+}*/
+.sidebar {
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #373a47;
+    min-height: 100vh;
+	box-shadow: 5px 0 70px #888888;
+	padding-left: 0; 
+	padding-right: 0
+}
+
+.main {
+	margin-left: 325px;
+}
+
