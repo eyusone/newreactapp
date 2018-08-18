@@ -12,10 +12,10 @@ import Appquaters from './Components/Containers/appquaters/appquaters.jsx';
 const Routes = () => (
 
   <Switch>
-  <Route exact path='/public' render={(props) => 
+  <Route exact path='/' render={(props) => 
   	(<Maindevice {...props} load = {false}/>)
   }/>
-  <Route path = '/public/main' component = {Appquaters}/>
+  <Route path = '/main' component = {Appquaters}/>
   </Switch>
   )
 
