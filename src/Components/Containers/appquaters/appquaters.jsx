@@ -16,7 +16,7 @@ export default class Quaters extends Component {
         			<div className = "col-5 p-1 mr-4 mb-4 contents">
         			    <h3 className = 'p-1' style = {{ borderBottom: '2px solid #A54BE0'}}>LOOK AT ME</h3>
                         <div className = 'txts'>
-                        <p>Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.
+                        <p>HER.Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.
                         Some text here.Some text here.Some text here.Some text here.Some text here.</p>
                         <Button className = 'btn' color = 'primary'>NEXT</Button>

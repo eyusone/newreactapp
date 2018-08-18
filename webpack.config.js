@@ -4,15 +4,12 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: "./src/index.jsx", // входная точка - исходный файл
+    entry: "./src/index.js", // входная точка - исходный файл
     output:{
         path: path.resolve(__dirname, 'public'),     // путь к каталогу выходных файлов - папка public
         publicPath: '/public',
         filename: "bundle.js"       // название создаваемого файла
     },
-
-    
-    
     module:{
         rules:[   //загрузчик для jsx
             {
@@ -22,9 +19,6 @@ module.exports = {
                 options:{
                     presets:["env", "react"]    // используемые плагины
                 }
-                /*include: [
-                path.resolve(__dirname, 'node_modules/react-scroll/lib')
-                ]*/
             },
             {
                 test: /\.css$/,
@@ -39,7 +33,8 @@ module.exports = {
     },
 
     devServer: {
-    historyApiFallback: true
+    historyApiFallback: true,
+    headers: { 'Access-Control-Allow-Origin': '*' }
     },
     
     plugins: [
@@ -47,6 +42,13 @@ module.exports = {
                 $: "jquery/dist/jquery.min.js",
                 jQuery: "jquery/dist/jquery.min.js",
                 "window.jQuery": "jquery/dist/jquery.min.js"
+            }),
+            //new webpack.optimize.UglifyJsPlugin(),
+            new webpack.DefinePlugin({
+                'process.env': {
+                    BROWSER:  JSON.stringify(true),
+                    NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development')
+                }
             })
             //new HtmlWebpackPlugin({
                 //template: 'public/index.html'
@@ -54,3 +56,8 @@ module.exports = {
             //})
         ]
 };
+
+if (process.env.NODE_ENV === 'production') {
+                    plugins.push(new webpack.optimize.DedupePlugin());
+                    plugins.push(new webpack.optimize.OccurenceOrderPlugin());
+            }
