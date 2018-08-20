@@ -9,10 +9,17 @@ import App from './App.jsx';
 import 'bootswatch/dist/pulse/bootstrap.css';
 import registerServiceWorker from './registerServiceWorker';
 
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';
+
+const store = [];
+
 ReactDOM.render(
+	<Provider store = {store}>
 	<BrowserRouter>
 	<App/>
-	</BrowserRouter>,
+	</BrowserRouter>
+	</Provider>,
 
 	document.getElementById('root')
 	);

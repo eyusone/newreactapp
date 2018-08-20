@@ -6,13 +6,21 @@
 	/*height: 150px;*/
 	min-height: 35vh;
 	text-align: center;
-	background: #F5ECEA; 
+	/*background: #F5ECEA;*/
     border: 2px solid #DED2CF; 
     border-radius: 5px;
-    
+    font-size: 21px;
+    transition-property: background;
+    transition-duration: 0.3s;
 }
 
 .txts {
 	overflow-y: auto;
 	/*height: 50px;*/
+}
+
+.contents:hover {
+	background: #F5ECEA;
+	transition-property: background;
+	transition-duration: 0.3s;
 }

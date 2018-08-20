@@ -26,7 +26,7 @@ module.exports = {
             },
                   { test: /\.gif$/, loader: 'url-loader?limit=10000&mimetype=image/gif' },
       { test: /\.jpg$/, loader: 'url-loader?limit=10000&mimetype=image/jpg' },
-      { test: /\.png$/, loader: 'url-loader?limit=10000&mimetype=image/png' },
+      { test: /\.png$/, loader: 'file-loader?name=/img/[name].[ext]' },
       { test: /\.svg/, loader: 'url-loader?limit=26000&mimetype=image/svg+xml' },
       { test: /\.html$/, loader: 'file?name=[name].[ext]' }
         ]

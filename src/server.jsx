@@ -25,6 +25,7 @@ app.use((req, res) => {
 	const componentHTML = ReactDom.renderToString(<RouterContext {...renderProps} />);
 	return res.end(renderHTML(componentHTML));
 });
+});
 
 const assetUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:8080' : '/';
 

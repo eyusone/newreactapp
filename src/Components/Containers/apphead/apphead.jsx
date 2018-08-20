@@ -7,17 +7,13 @@ export default class Apphead extends Component {
     	super(props);
     }
 
-    componentDidMount() {
-    	
-    }
-    
 	render() {        
     
     return (
     	<div className = "container p-4">
     		<div className = "row">
     			<div className = "col">
-    			    <h1 style = {{borderBottom: '4px solid #A54BE0'}} className = 'p-1'>MAIN PAGE APPLICATION</h1>
+    			    <h1 style = {{borderBottom: '4px solid #A54BE0', textAlign: 'center'}} className = 'p-1'>{this.props.text}</h1>
     			</div>
     		</div>
     	</div>
