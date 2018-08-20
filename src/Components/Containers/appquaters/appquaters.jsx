@@ -18,10 +18,10 @@ export default class Quaters extends Component {
         	<div className = "container p-3 m-0">
         		<div className = "row align-items-start justify-content-center">
 
-                    <Qtr label = 'RUSSIAN PREMIER LEAGUE' src = '/public/img/ball.png' />
-                    <Qtr label = 'ENGLISH PREMIER LEAGUE' src = '/public/img/trophy.png'/>
-                    <Qtr label = 'LA LIGA' src = '/public/img/player.png'/>
-                    <Qtr label = 'BUNDESLIGA' src = '/public/img/tshirt.png'/>
+                    <Qtr label = 'RUSSIAN PREMIER LEAGUE' src = '/img/ball.png' />
+                    <Qtr label = 'ENGLISH PREMIER LEAGUE' src = '/img/trophy.png'/>
+                    <Qtr label = 'LA LIGA' src = '/img/player.png'/>
+                    <Qtr label = 'BUNDESLIGA' src = '/img/tshirt.png'/>
                     
         		</div>
         	</div>
