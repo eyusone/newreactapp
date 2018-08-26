@@ -51,7 +51,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack",
+    "build": "set NODE_ENV='production' && webpack -p",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "dev": "webpack-dev-server --hot --open",
