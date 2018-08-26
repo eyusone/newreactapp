@@ -16,13 +16,13 @@ import About from './Components/Containers/about/about.jsx';
 const Routes = () => (
 
   <Switch>
-	  <Route exact path='/public/' render={
+	  <Route exact path='/' render={
 	  	Wrapper((props) => 
 	  	(<Main {...props}/>))
 	  }/>
-	  <Route path = '/public/table/:ln' component = {Table}/>
-	  <Route path = '/public/league/:ln' component = {League}/>
-	  <Route path = '/public/about' component = {About} />
+	  <Route path = '/table/:ln' component = {Table}/>
+	  <Route path = '/league/:ln' component = {League}/>
+	  <Route path = '/about' component = {About} />
   </Switch>
   )
 

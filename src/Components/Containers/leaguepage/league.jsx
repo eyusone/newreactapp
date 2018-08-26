@@ -26,7 +26,7 @@ export default class Leaguepage extends Component {
                         <div className = "row align-items-center justify-content-center">
                             
                             <div className="col-4 col-md-4 conts mr-1 myNewDivHeight" style = {{paddingTop: '5%'}}>
-                                <img src = '/public/img/ballsmall.png'/>
+                                <img src = '/img/ballsmall.png'/>
                                 <h1 style = {{marginTop: '10%'}}>
                                     INFO
                                 </h1>
@@ -50,7 +50,7 @@ export default class Leaguepage extends Component {
                                     if (link === item.name) {
                                         //console.log('true', item.name);
                                         return (
-                                            <Link to = {`/public/table/${link}`} key = {item.name} 
+                                            <Link to = {`/table/${link}`} key = {item.name} 
                                             className="col-3 col-md-3 cont mr-1" style = {{color: 'white'}}>
                                                 <div style={{marginTop: '100%'}}>
                                                     <h2>TABLE</h2>
