@@ -21,10 +21,8 @@ export default class Sidebar extends Component {
     			<div>
     				<ul style = {{padding: '0'}}>
     					<li><h2>DASHBOARD</h2></li>
-    					<Link to = '/' className = 'm-0'><li className = "menu">HOME</li></Link>
-    					<Link to = '/signin' className = 'm-0'><li className = "menu">TABLES</li></Link>
-    					<li className = "menu">LAST SCORES</li>
-    					<li className = "menu">ABOUT</li>
+    					<Link to = '/public/' className = 'm-0'><li className = "menu">HOME</li></Link>
+    					<Link to = '/public/about' className = 'm-0'><li className = "menu">ABOUT</li></Link>
     				</ul>
     			</div>
 

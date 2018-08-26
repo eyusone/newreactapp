@@ -1,6 +1,5 @@
-export const switchTeam = (team) => {
-    return {
-        type: 'SWITCH_TEAM',
-        team
-    }
-}
+export const switchTeam = value => ({
+	//console.log(value);
+        type: 's',
+        value
+})

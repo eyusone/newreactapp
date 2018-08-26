@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import './main.css';
 
-import Quaters from '../../Containers/appquaters/appquaters.jsx';
 import Apphead from '../apphead/apphead.jsx';
-
-export default class Main extends Component {
+import Aboutpage from './aboutpage.jsx';
+ 
+export default class About extends Component {
 	constructor(props) {
     	super(props);
     }
@@ -17,8 +16,8 @@ export default class Main extends Component {
 	render() {        
             return (
                     <div className='main' id = 'main'>
-                        <Apphead text = 'MAIN PAGE APPLICATION'/> 
-                        <Quaters />
+                        <Apphead text = 'ABOUT'/> 
+                        <Aboutpage />
     	           </div>
             )
     }

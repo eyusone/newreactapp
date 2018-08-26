@@ -17,7 +17,7 @@ export default class Qtr extends Component {
 
 	render() {
         return (
-        	<div className = "col-4 p-1 mr-4 mb-4 contents">
+        	<div>
                     {/*<Link to = '/'>*/}
                         <h3 className = 'p-1' style = {{ borderBottom: '2px solid #A54BE0'}}>{this.props.label}</h3>
                         <div className = 'txts'>

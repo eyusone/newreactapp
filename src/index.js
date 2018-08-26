@@ -11,14 +11,19 @@ import registerServiceWorker from './registerServiceWorker';
 
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
+import MainReducer from './Components/Reducers/index.jsx';
+//import { combineReducers } from 'redux';
 
-const store = [];
+const store = createStore(MainReducer);
+store.subscribe( () => {
+	//console.log('subscribe', store.getState());
+});
 
 ReactDOM.render(
 	<Provider store = {store}>
-	<BrowserRouter>
-	<App/>
-	</BrowserRouter>
+		<BrowserRouter>
+			<App/>
+		</BrowserRouter>
 	</Provider>,
 
 	document.getElementById('root')

@@ -1,15 +1,8 @@
-const switches = (state = [], actions) => {
-	switch(actions.type) {
-		case('SWITCH_TEAM') {
-			return [
-			...state,
-			team: action.team
-			]
-			}
-		default: 
-			return state
-		}
-	}
-}
+import { combineReducers } from 'redux';
+import Switches from './selectreducer.jsx';
 
-export default switches;
+const MainReducer = combineReducers({
+	Switches
+});
+
+export default MainReducer;

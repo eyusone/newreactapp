@@ -1,6 +1,13 @@
-/*.main {
-	overflow: scroll;
-}*/
+.main {
+	margin-left: auto;
+}
+
+@media (min-width: 280px) and (max-width: 450px) {
+.device {
+	
+}
+}
+
 .sidebar {
 	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
@@ -11,16 +18,7 @@
     min-height: 100vh;
 	box-shadow: 5px 0 70px #888888;
 	padding-left: 0; 
-	padding-right: 0
-}
-
-.main {
-	margin-left: auto;
-}
-
-@media (min-width: 280px) and (max-width: 450px) {
-.device {
-	
-}
+	padding-right: 0;
+	max-width: auto
 }
 
