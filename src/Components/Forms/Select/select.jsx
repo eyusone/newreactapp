@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Graph from '../../Containers/signin/graph/graph.jsx';
 import {connect} from 'react-redux';
-import {switchTeam} from '../../Actions/index.jsx';
+import {switchTeam, stateNull} from '../../Actions/index.jsx';
 
 const action = {switchTeam};
 
@@ -18,6 +18,10 @@ export class Select extends React.Component {
     this.props.onSelectChange(event.target.value);
     //console.log(this.props.value);
   }
+
+  /*componentWillUnmount() {
+    this.props.onSetStateNull(null);
+  }*/
 
   render() {
 
@@ -61,8 +65,6 @@ export class Select extends React.Component {
 }
 
 Select.propTypes = {
-  // You can declare that a prop is a specific JS type. By default, these
-  // are all optional.
   options: PropTypes.array
 }
 
@@ -78,6 +80,10 @@ const mapDispatchToProps = (dispatch) => {
     onSelectChange: (value) => {
       dispatch(switchTeam(value));
     }
+    /*
+    onSetStateNull: (state) => {
+      dispatch(stateNull(value));
+    }*/
   };
 }
 

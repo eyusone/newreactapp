@@ -3,7 +3,7 @@ import './table.css';
 import Select from '../../Forms/Select/select.jsx';
 
 const teamname = [
-  'ZENIT','CSKA','RUBIN'
+  'MILAN','INTER','JUVENTUS'
 ];
 
 export class Element extends React.Component {
@@ -18,8 +18,8 @@ export class Element extends React.Component {
 
     componentDidMount() {
       //parse info here
-      //const url = "http://localhost:8080/src/Components/Containers/signin/" + this.props.url;
-      const url = "https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/" + this.props.url;
+      const url = "http://localhost:8080/src/Components/Containers/signin/" + this.props.url;
+      //const url = "https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/" + this.props.url;
       fetch(url)
       .then(res => res.json())
       .then(parsedata => this.setState({data: parsedata}))

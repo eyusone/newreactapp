@@ -26,17 +26,17 @@ export default class Leaguepage extends Component {
                         <div className = "row align-items-center justify-content-center">
                             
                             <div className="col-4 col-md-4 conts mr-1 myNewDivHeight" style = {{paddingTop: '5%'}}>
-                                <img src = '/img/ballsmall.png'/>
+                                <img src = '/public/img/ballsmall.png'/>
                                 <h1 style = {{marginTop: '10%'}}>
                                     INFO
                                 </h1>
 
                                 {text.map(function(item, index) {
                                     if (link === item.name) {
-                                        //console.log('true', item.name);
-                                        return (
-                                            <p key = {item.name}>{item.name}</p>
-                                            )
+                                            item.txt.map(function(items, index) {
+                                                console.log(items);
+                                            })
+                                        return (<div key = {index}>ss</div>)
                                     }
                                     else {
                                         //console.log('false');
@@ -50,10 +50,10 @@ export default class Leaguepage extends Component {
                                     if (link === item.name) {
                                         //console.log('true', item.name);
                                         return (
-                                            <Link to = {`/table/${link}`} key = {item.name} 
+                                            <Link to = {`/public/table/${link}`} key = {item.name} 
                                             className="col-3 col-md-3 cont mr-1" style = {{color: 'white'}}>
                                                 <div style={{marginTop: '100%'}}>
-                                                    <h2>TABLE</h2>
+                                                    <h2>TABLE GRAPH</h2>
                                                 </div>
                                             </Link>
                                             )
@@ -61,24 +61,30 @@ export default class Leaguepage extends Component {
                                     else {
                                         //console.log('false');
                                     }
-                                })
-                                }
+                            })
+                            }
 
                             
-                                
-                            <Link to = '/public/' className="col-3 col-md-3 cont mr-1" style = {{color: 'white'}}>
-                                <div style={{marginTop: '100%'}}>
-                                     <h2>LAST SCORES</h2>
-                                </div>
-                            </Link>
+                            {text.map(function(item) {
+                                    if (link === item.name) {
+                                        //console.log('true', item.name);
+                                        return (    
+                                            <Link to = {`/public/scores/${link}`} 
+                                            className="col-3 col-md-3 cont mr-1" key = {item.name} style = {{color: 'white'}}>
+                                                <div style={{marginTop: '100%'}}>
+                                                     <h2>SIMPLE TABLE</h2>
+                                                </div>
+                                            </Link>)
+                                    }
+                                    else {
+                                        //console.log('false');
+                                    }
+                            })
+                            }
+
+
                         </div>
                    </div>
             )
     }
 }
-
-                                            /*text.map(function(item) {
-                                                return (
-                                                    <p>{item.txt}</p>
-                                                    )
-                                            })*/

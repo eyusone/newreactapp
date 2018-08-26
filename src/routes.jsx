@@ -9,6 +9,7 @@ import Main from './Components/Containers/main/main.jsx';
 import Appquaters from './Components/Containers/appquaters/appquaters.jsx';
 import Wrapper from './Components/Wrappers/wraptrans.jsx';
 import Table from './Components/Containers/signin/table.jsx';
+import Scores from './Components/Containers/scores/scores.jsx';
 import League from './Components/Containers/leaguepage/leaguepage.jsx';
 import About from './Components/Containers/about/about.jsx';
 
@@ -16,13 +17,14 @@ import About from './Components/Containers/about/about.jsx';
 const Routes = () => (
 
   <Switch>
-	  <Route exact path='/' render={
+	  <Route exact path='/public/' render={
 	  	Wrapper((props) => 
 	  	(<Main {...props}/>))
 	  }/>
-	  <Route path = '/table/:ln' component = {Table}/>
-	  <Route path = '/league/:ln' component = {League}/>
-	  <Route path = '/about' component = {About} />
+	  <Route path = '/public/table/:ln' component = {Table}/>
+	  <Route path = '/public/scores/:ln' component = {Scores}/>
+	  <Route path = '/public/league/:ln' component = {League}/>
+	  <Route path = '/public/about' component = {About} />
   </Switch>
   )
 

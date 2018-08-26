@@ -3,3 +3,8 @@ export const switchTeam = value => ({
         type: 's',
         value
 })
+
+export const stateNull = myState => ({
+		type: 'STATE_NULL',
+		myState		
+})

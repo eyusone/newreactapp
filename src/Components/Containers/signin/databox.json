@@ -2,99 +2,99 @@
     "table": [
     {
         "name": "1",
-        "CSKA": 3,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 3,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "2",
-        "CSKA": 3,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 3,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "3",
-        "CSKA": 2,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 2,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "4",
-        "CSKA": 2,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 2,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "5",
-        "CSKA": 1,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 1,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "6",
-        "CSKA": 4,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 4,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "7",
-        "CSKA": 8,
-        "ZENIT": 3,
-        "RUBIN": 13
+        "MILAN": 8,
+        "INTER": 3,
+        "JUVENTUS": 13
     },
     {
         "name": "8",
-        "CSKA": 6,
-        "ZENIT": 3,
-        "RUBIN": 9
+        "MILAN": 6,
+        "INTER": 3,
+        "JUVENTUS": 9
     },
     {
         "name": "9",
-        "CSKA": 4,
-        "ZENIT": 10,
-        "RUBIN": 3
+        "MILAN": 4,
+        "INTER": 10,
+        "JUVENTUS": 3
     },
     {
         "name": "10",
-        "CSKA": 2,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 2,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "11",
-        "CSKA": 2,
-        "ZENIT": 3,
-        "RUBIN": 5
+        "MILAN": 2,
+        "INTER": 3,
+        "JUVENTUS": 5
     },
     {
         "name": "12",
-        "CSKA": 3,
-        "ZENIT": 3,
-        "RUBIN": 7
+        "MILAN": 3,
+        "INTER": 3,
+        "JUVENTUS": 7
     },
     {
         "name": "13",
-        "CSKA": 2,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 2,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "14",
-        "CSKA": 2,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 2,
+        "INTER": 3,
+        "JUVENTUS": 3
     },
     {
         "name": "15",
-        "CSKA": 3,
-        "ZENIT": 3,
-        "RUBIN": 3
+        "MILAN": 3,
+        "INTER": 3,
+        "JUVENTUS": 3
     }
     ],
     "teamname": [
-        "ZENIT",
-        "CSKA",
-        "RUBIN"
+        "INTER",
+        "MILAN",
+        "JUVENTUS"
     ],
-    "first": "RUSSIAN PREMIER LEAGUE"
+    "first": "SERIE A"
 }

@@ -3,8 +3,7 @@
     text-align: center;
     border: 2px solid #DED2CF;
     font-size: 21px;
-    background-image: url("https://previews.123rf.com/images/doimogoju/doimogoju1404/doimogoju140400012/27770527-soccer-football-field-stadium-grass-line-ball-background-texture-light-shadow-on-the-grass.jpg");
-    color: white;
+    background-image: url("http://www.utc.esy.es/images/fondo1.jpg");
     text-shadow: 5px 5px 5px black;
     background-color: rgba(200,200,200,1);
     background-repeat: no-repeat;
@@ -14,7 +13,7 @@
 
 .cont:hover {
 	background-blend-mode: multiply;
-	background-color: rgba(218, 142, 230, 1);
+	background-color: rgba(218, 142, 230, 0.6);
 	transition-property: background-color;
 	transition-duration: 0.3s;
 }
@@ -26,7 +25,9 @@
     font-size: 21px;
     color: white;
     text-shadow: 5px 5px 5px black;
-    background-color: #373a47;      
+    background-image: url('https://images.wallpaperscraft.com/image/black_gray_background_abstract_65558_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover      
 }
 
 /*.col {

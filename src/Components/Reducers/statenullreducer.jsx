@@ -1,23 +1,19 @@
 /*const initialState = {
 	payload: 'ZENIT' 
 }*/
-const initialState = {
-	value: 'MILAN'
-}
-
-const Switches = (state = initialState, action) => {
+const Statenull = (state = [], action) => {
 	//let value;
 	switch (action.type) {
-		case 's' :
+		case 'STATE_NULL' :
 			return Object.assign({}, state, {
-        		value: action.value
+        		value: null
       		})
 		default: 
 			return state
 		}
 	}
 
-export default Switches;
+export default Statenull;
 
 /*return 
 [

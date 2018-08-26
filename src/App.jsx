@@ -12,7 +12,7 @@ const Hello = () => {
             <div className = "row align-items-center">
                 <div className = "col-12" style = {{paddingTop: '35vh'}}>
                     <h1 style = {{textAlign: 'center'}}>This app is only for Desktop!</h1><br/>
-                    <img src = '/img/sad.png' alt = 'sorry'
+                    <img src = '/public/img/sad.png' alt = 'sorry'
                     style = {{maxWidth: '150px', maxHeight: '150px', marginLeft: 'auto', marginRight: 'auto', display: 'block'}}/>
                 </div>
             </div>
