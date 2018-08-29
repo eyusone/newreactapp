@@ -1,7 +1,7 @@
 /*const initialState = {
 	payload: 'ZENIT' 
 }*/
-const Statenull = (state = [], action) => {
+const Statenull = (state, action) => {
 	//let value;
 	switch (action.type) {
 		case 'STATE_NULL' :

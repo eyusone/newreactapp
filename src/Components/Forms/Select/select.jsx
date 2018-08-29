@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Graph from '../../Containers/signin/graph/graph.jsx';
 import {connect} from 'react-redux';
-import {switchTeam, stateNull} from '../../Actions/index.jsx';
+import {switchTeam, stateNull, initialTeam} from '../../Actions/index.jsx';
 
 const action = {switchTeam};
 
@@ -11,17 +11,24 @@ export class Select extends React.Component {
     super(props);
 
     this.handleChange = this.handleChange.bind(this);
+    const team = this.props.initTeam;
+    console.log(team);
+  }
+
+  
+  componentDidMount(team) {
+    this.props.setinitialTeam(team);
+    //console.log(this.props.state);
   }
 
   handleChange(event) {
     event.preventDefault();
     this.props.onSelectChange(event.target.value);
-    //console.log(this.props.value);
   }
 
-  /*componentWillUnmount() {
-    this.props.onSetStateNull(null);
-  }*/
+  componentWillUnmount() {
+    this.props.onSetStateNull();
+  }
 
   render() {
 
@@ -79,11 +86,13 @@ const mapDispatchToProps = (dispatch) => {
   return {
     onSelectChange: (value) => {
       dispatch(switchTeam(value));
-    }
-    /*
+    },
     onSetStateNull: (state) => {
-      dispatch(stateNull(value));
-    }*/
+      dispatch(stateNull(state));
+    },
+    setinitialTeam: (value) => {
+      dispatch(initialTeam(value));
+    }
   };
 }
 

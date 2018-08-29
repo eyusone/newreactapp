@@ -19,10 +19,10 @@ export default class Sidebar extends Component {
     return (
 
     			<div>
-    				<ul style = {{padding: '0'}}>
-    					<li><h2>DASHBOARD</h2></li>
-    					<Link to = '/public/' className = 'm-0'><li className = "menu">HOME</li></Link>
-    					<Link to = '/public/about' className = 'm-0'><li className = "menu">ABOUT</li></Link>
+    				<ul style = {{padding: '0'}} className = 'sidebarR'>
+    					<li className = 'classicLI'><h2>DASHBOARD</h2></li>
+    					<Link to = '/public/' className = 'm-0'><li className = "menu classicLI">HOME</li></Link>
+    					<Link to = '/public/about' className = 'm-0'><li className = "menu classicLI">ABOUT</li></Link>
     				</ul>
     			</div>
 

@@ -1,9 +1,15 @@
 import React, {Component, propTypes} from 'react';
 import './table.css';
 import Select from '../../Forms/Select/select.jsx';
+import {connect} from 'react-redux';
+import {getData} from '../../Actions/index.jsx';
 
 const teamname = [
-  'MILAN','INTER','JUVENTUS'
+  'MILAN','INTER','JUVENTUS',"NAPOLI",
+        "ROMA",
+        "ATALANTA",
+        "LAZIO",
+        "FIORENTINA"
 ];
 
 export class Element extends React.Component {
@@ -18,6 +24,7 @@ export class Element extends React.Component {
 
     componentDidMount() {
       //parse info here
+
       const url = "http://localhost:8080/src/Components/Containers/signin/" + this.props.url;
       //const url = "https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/" + this.props.url;
       fetch(url)
@@ -28,15 +35,24 @@ export class Element extends React.Component {
       })
     }
 
+
     render() {
-      console.log(typeof(this.state.data.table));
+      //console.log(typeof(this.state.data.table));
       return (
         <Select name='team' first = {this.state.data.first} options={teamname} 
                       identified = {
                         this.state.data.table
-                      }
+                      } initTeam = {teamname[0]}
           />
         )
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        getTableData: (value) => {
+            dispatch(getData(value));
+        }
     }
 }
 

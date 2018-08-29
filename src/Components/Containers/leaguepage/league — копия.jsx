@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+import Apphead from '../apphead/apphead.jsx';
 import './league.css';
 import {Button} from 'reactstrap';
 import {Link} from 'react-router-dom';
@@ -25,38 +26,17 @@ export default class Leaguepage extends Component {
         const link = this.props.link;
         //console.log(link);
             return (
-                    <div className = "container pl-2 pr-2 pb-2">
+                    <div className = "container pl-4 pr-4 pb-3">
                         <div className = "row align-items-center justify-content-center">
                         
                                 {text.map(function(item, index) {
                                     if (link === item.name) {
                                         return (
-                                            <div className="col-10 col-md-10 conts mr-1" key = {item.name}
-                                            style = {{paddingTop: '1%'}}>
-
-                                                <h1 style = {{textAlign: 'center'}} className = 'display-4'>
+                                            <div className="col-12 col-md-12 conts mr-1 myNewDivHeight" style = {{paddingTop: '3%'}}>
+                                                <h1 style = {{marginTop: '1%'}} className = 'display-4'>
                                                 {item.fullname}
                                                 </h1>
-
-                                                <div className = 'container p-0'>
-                                                        <div className = 'row justify-content-center'>
-                                                            <div className = 'col' style = {{width: '50%'}}>                                              
-                                                                    <Link to = {`/public/table/${link}`} key = {item.name} 
-                                                                    className="mr-1 btn btn-primary" style = {{marginLeft: '100px'}}>
-                                                                        <h3 className = 'm-0 p-1'>TABLE GRAPH</h3>
-                                                                    </Link>
-                                                                                                                                
-                                                            </div>
-
-                                                            <div className = 'col' style = {{width: '50%'}}>                                 
-                                                                    <Link to = {`/public/scores/${link}`} 
-                                                                    className="mr-1 btn btn-primary" style = {{marginLeft: '100px'}}> 
-                                                                        <h3 className = 'm-0 p-1'>SIMPLE TABLE</h3>
-                                                                    </Link>
-                                                                    
-                                                            </div>
-                                                        </div>
-                                                </div>
+                                                
                                             </div>
                                             )
                                     }
@@ -65,6 +45,45 @@ export default class Leaguepage extends Component {
                                     }
                                 })
                                 }
+                            
+                           {text.map(function(item) {
+                                    if (link === item.name) {
+                                        //console.log('true', item.name);
+                                        return (
+                                            <Link to = {`/public/table/${link}`} key = {item.name} 
+                                            className="col-3 col-md-3 cont mr-1" style = {{color: 'white'}}>
+                                                <div style={{marginTop: '75%'}}>
+                                                    <h2>TABLE GRAPH</h2>
+                                                    <img src = '/public/img/data-table.png' style = {{maxWidth: '150px', maxHeight: '150px'}}/>
+                                                </div>
+                                            </Link>
+                                            )
+                                    }
+                                    else {
+                                        //console.log('false');
+                                    }
+                            })
+                            }
+
+                            
+                            {text.map(function(item) {
+                                    if (link === item.name) {
+                                        //console.log('true', item.name);
+                                        return (    
+                                            <Link to = {`/public/scores/${link}`} 
+                                            className="col-3 col-md-3 cont mr-1" key = {item.name} style = {{color: 'white'}}>
+                                                <div style={{marginTop: '100%'}}>
+                                                     <h2>SIMPLE TABLE</h2>
+                                                </div>
+                                            </Link>)
+                                    }
+                                    else {
+                                        //console.log('false');
+                                    }
+                            })
+                            }
+
+
                         </div>
                    </div>
             )

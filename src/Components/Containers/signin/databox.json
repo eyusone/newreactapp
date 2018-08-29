@@ -4,97 +4,177 @@
         "name": "1",
         "MILAN": 3,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "2",
         "MILAN": 3,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "3",
         "MILAN": 2,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "4",
         "MILAN": 2,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "5",
         "MILAN": 1,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "6",
         "MILAN": 4,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "7",
         "MILAN": 8,
         "INTER": 3,
-        "JUVENTUS": 13
+        "JUVENTUS": 13,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "8",
         "MILAN": 6,
         "INTER": 3,
-        "JUVENTUS": 9
+        "JUVENTUS": 9,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "9",
         "MILAN": 4,
         "INTER": 10,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "10",
         "MILAN": 2,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "11",
         "MILAN": 2,
         "INTER": 3,
-        "JUVENTUS": 5
+        "JUVENTUS": 5,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "12",
         "MILAN": 3,
         "INTER": 3,
-        "JUVENTUS": 7
+        "JUVENTUS": 7,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "13",
         "MILAN": 2,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "14",
         "MILAN": 2,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     },
     {
         "name": "15",
         "MILAN": 3,
         "INTER": 3,
-        "JUVENTUS": 3
+        "JUVENTUS": 3,
+        "NAPOLI": 4,
+        "ROMA": 5,
+        "ATALANTA": 7,
+        "LAZIO": 10,
+        "FIORENTINA": 11
     }
     ],
     "teamname": [
         "INTER",
         "MILAN",
-        "JUVENTUS"
+        "JUVENTUS",
+        "NAPOLI",
+        "ROMA",
+        "ATALANTA",
+        "LAZIO",
+        "FIORENTINA"
     ],
     "first": "SERIE A"
 }

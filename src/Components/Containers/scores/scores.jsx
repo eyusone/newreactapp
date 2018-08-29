@@ -25,7 +25,7 @@ export default class Table extends Component {
         {league.map(function(item, index) {
           if (item.name===ln) {
             //console.log(item.url);
-            return (<Element url = {item.url} key = {index}/>)
+            return (<Element url = {item.url} key = {index} link = {ln}/>)
           }
         })
         }

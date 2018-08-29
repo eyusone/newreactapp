@@ -1,0 +1,20 @@
+.simpletable {
+	list-style: none;
+	padding-top: 35px;
+	padding-left: 0;
+	font-size: 30px;
+}
+
+.list-item {
+	border: 1px solid #DED2CF;
+}
+
+.pull-right {
+	float: right;
+}
+
+.list-item:hover {
+	background-color: #F5ECEA;
+	transition-property: background-color;
+	transition-duration: 0.6s;
+}

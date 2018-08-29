@@ -1,45 +1,14 @@
-.cont {
-	height: 500px;
-    text-align: center;
-    border: 2px solid #DED2CF;
-    font-size: 21px;
-    background-image: url("http://www.utc.esy.es/images/fondo1.jpg");
-    text-shadow: 5px 5px 5px black;
-    background-color: rgba(200,200,200,1);
-    background-repeat: no-repeat;
-    background-size: cover
-        
-}
-
-.cont:hover {
-	background-blend-mode: multiply;
-	background-color: rgba(218, 142, 230, 0.6);
-	transition-property: background-color;
-	transition-duration: 0.3s;
-}
-
 .conts {
     height: 500px;
-    text-align: center;
+    text-align: left;
     border: 2px solid #DED2CF;
-    font-size: 21px;
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    background-image: url('https://images.wallpaperscraft.com/image/black_gray_background_abstract_65558_1920x1080.jpg');
-    background-repeat: no-repeat;
-    background-size: cover      
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 5px 0 50px #888888;
 }
 
-/*.col {
-  
+.btnlinks {
+	border-radius: 5px;
+	margin: auto;
+	display: block
 }
-
-.cont > *{
-  max-height: 100%;
-}
-
-@media screen and (min-width: 512px) {
-    myNewDivHeight{
-        width:1000px;
-    }
-}*/
