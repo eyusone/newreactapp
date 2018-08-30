@@ -75,7 +75,7 @@ module.exports = {
                     eslint: { configFile: '.eslintrc' }
                 }*/
             }),
-            new webpack.ExtractTextPlugin('styles.css')
+            new ExtractTextPlugin('styles.css')
 
             //new webpack.EnvironmentPlugin(['NODE_ENV'])
             //new HtmlWebpackPlugin({
