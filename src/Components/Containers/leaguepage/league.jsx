@@ -56,7 +56,7 @@ export default class Leaguepage extends Component {
                                                             style = {{width: '50%'}}>                                              
 
                                                                     
-                                                                        <Link to = {`/public/table/${link}`} key = {item.name} 
+                                                                        <Link to = {`/table/${link}`} key = {item.name} 
                                                                         className="btn btn-primary" 
                                                                         style = {{borderRadius: '20px', display: 'block'}}>
                                                                             <h3 className = 'm-0 p-1'>TABLE GRAPH</h3>
@@ -67,7 +67,7 @@ export default class Leaguepage extends Component {
 
                                                             <div className = 'col pl-4 pr-4 pb-4 m-0 anim' style = {{width: '50%'}}>                                 
                                                                     
-                                                                    <Link to = {`/public/scores/${link}`} 
+                                                                    <Link to = {`/scores/${link}`} 
                                                                     className="btn btn-primary" 
                                                                     style = {{borderRadius: '20px', display: 'block'}}> 
                                                                         <h3 className = 'm-0 p-1'>SIMPLE TABLE</h3>
