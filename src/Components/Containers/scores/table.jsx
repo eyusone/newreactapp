@@ -9,10 +9,10 @@ export class Table extends React.Component {
         super(props);
         this.MY_API_KEY = '540d563d81e740c08d7465f16ce75598';
         this.urls = {
-            RPL: 'http://api.football-data.org/v2/competitions/2019/standings',
-            EPL: 'http://api.football-data.org/v2/competitions/2021/standings',
-            LL: 'http://api.football-data.org/v2/competitions/2014/standings',
-            Bundesliga: 'http://api.football-data.org/v2/competitions/2002/standings'
+            RPL: 'https://api.football-data.org/v2/competitions/2019/standings',
+            EPL: 'https://api.football-data.org/v2/competitions/2021/standings',
+            LL: 'https://api.football-data.org/v2/competitions/2014/standings',
+            Bundesliga: 'https://api.football-data.org/v2/competitions/2002/standings'
         };
         this.leagueDataGet = this.leagueDataGet.bind(this);
     }
