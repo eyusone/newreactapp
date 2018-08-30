@@ -6,9 +6,9 @@ import Element from './tableview.jsx'
 
 const league = [
 {name: 'RPL', url: 'databox.json'},
-{name: 'EPL', url: './epl.json'},
-{name: 'LL', url: './LL.json'},
-{name: 'Bundesliga', url: './bundesliga.json'}
+{name: 'EPL', url: 'epl.json'},
+{name: 'LL', url: 'laliga.json'},
+{name: 'Bundesliga', url: 'bundesliga.json'}
 ];
 
 export default class Table extends Component {

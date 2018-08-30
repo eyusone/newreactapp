@@ -1,0 +1,180 @@
+{
+    "table": [
+    {
+        "name": "1",
+        "MANUTD": 3,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "2",
+        "MANUTD": 3,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "3",
+        "MANUTD": 2,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "4",
+        "MANUTD": 2,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "5",
+        "MANUTD": 1,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "6",
+        "MANUTD": 4,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "7",
+        "MANUTD": 8,
+        "CHELSEA": 3,
+        "ARSENAL": 13,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "8",
+        "MANUTD": 6,
+        "CHELSEA": 3,
+        "ARSENAL": 9,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "9",
+        "MANUTD": 4,
+        "CHELSEA": 10,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "10",
+        "MANUTD": 2,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "11",
+        "MANUTD": 2,
+        "CHELSEA": 3,
+        "ARSENAL": 5,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "12",
+        "MANUTD": 3,
+        "CHELSEA": 3,
+        "ARSENAL": 7,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "13",
+        "MANUTD": 2,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "14",
+        "MANUTD": 2,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    },
+    {
+        "name": "15",
+        "MANUTD": 3,
+        "CHELSEA": 3,
+        "ARSENAL": 3,
+        "TOTTENHAM": 4,
+        "EVERTON": 5,
+        "LIVERPOOL": 7,
+        "LEICESTER": 10,
+        "MANCITY": 11
+    }
+    ],
+    "teamname": [
+        "CHELSEA",
+        "MANUTD",
+        "ARSENAL",
+        "TOTTENHAM",
+        "EVERTON",
+        "LIVERPOOL",
+        "LEICESTER",
+        "MANCITY"
+    ],
+    "first": "ENGLISH PREMIER LEAGUE"
+}

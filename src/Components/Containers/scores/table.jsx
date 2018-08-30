@@ -102,7 +102,7 @@ export class Table extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    //console.log(state);
+    //console.log(typeof(state.Getdata.data));
     return {
         data: state.Getdata.data
     }

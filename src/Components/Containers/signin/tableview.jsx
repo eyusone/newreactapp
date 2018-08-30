@@ -4,22 +4,11 @@ import Select from '../../Forms/Select/select.jsx';
 import {connect} from 'react-redux';
 import {getData} from '../../Actions/index.jsx';
 
-const teamname = [
-  'MILAN','INTER','JUVENTUS',"NAPOLI",
-        "ROMA",
-        "ATALANTA",
-        "LAZIO",
-        "FIORENTINA"
-];
-
 export class Element extends React.Component {
 
     constructor(props) {
       super(props);
-
-      this.state = {
-        data: []
-      }
+      this.nameofteam = this.nameofteam.bind(this);
     }
 
     componentDidMount() {
@@ -29,22 +18,77 @@ export class Element extends React.Component {
       //const url = "https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/" + this.props.url;
       fetch(url)
       .then(res => res.json())
-      .then(parsedata => this.setState({data: parsedata}))
+      .then(parsedata => this.props.getTableData(parsedata))
       .catch(err => {  
           console.log('Fetch Error :-S', err);  
-      })
+      });
+      
+      //console.log(this.props.url);
     }
 
+    nameofteam(url) {
+        switch(url) {
+          case 'databox.json':
+            const teamname = [
+                  'MILAN','INTER','JUVENTUS',"NAPOLI",
+                  "ROMA",
+                  "ATALANTA",
+                  "LAZIO",
+                  "FIORENTINA"
+              ];
+            
+            return teamname
+          case 'epl.json':
+            const teamnames = [
+                  'MANUTD','CHELSEA','ARSENAL',"TOTTENHAM",
+                  "EVERTON",
+                  "LIVERPOOL",
+                  "LEICESTER",
+                  "MANCITY"
+              ];
+            
+            return teamnames
+          case 'laliga.json':
+            const teamnamez = [
+                  'REALM','BARCA','ATLETICOM',"VILLAREAL",
+                  "SEVILLA",
+                  "VALENCIA",
+                  "ATLETICOB",
+                  "CELTA"
+              ];
+            return teamnamez
+          case 'bundesliga.json':
+            const teamnamex = [
+                  'BAYERNM','BORUSSIAD','SCHALKE04',"WOLFSBURG",
+                  "BORUSSIAM",
+                  "FREIBURG",
+                  "MAINZ",
+                  "BAYER04"
+              ];
+            return teamnamex
+
+
+      }
+    }
 
     render() {
-      //console.log(typeof(this.state.data.table));
+      const teams = this.nameofteam(this.props.url); 
       return (
-        <Select name='team' first = {this.state.data.first} options={teamname} 
+        <Select name='team' first = {this.props.data.first} options={teams} 
                       identified = {
-                        this.state.data.table
-                      } initTeam = {teamname[0]}
+                        this.props.data.table
+                      } 
+                      
           />
         )
+    }
+}
+
+const mapStateToProps = (state) => {
+    //console.log(state.GraphData.data);
+    return {
+        data: state.GraphData.data,
+        teamname: state.GraphData.data.teamname
     }
 }
 
@@ -56,4 +100,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default Element;
+export default connect(mapStateToProps, mapDispatchToProps)(Element);

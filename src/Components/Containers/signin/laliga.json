@@ -1,0 +1,180 @@
+{
+    "table": [
+    {
+        "name": "1",
+        "ATLETICOM": 3,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "2",
+        "ATLETICOM": 3,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "3",
+        "ATLETICOM": 2,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "4",
+        "ATLETICOM": 2,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "5",
+        "ATLETICOM": 1,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "6",
+        "ATLETICOM": 4,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "7",
+        "ATLETICOM": 8,
+        "ATLETICOB": 3,
+        "VALENCIA": 13,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "8",
+        "ATLETICOM": 6,
+        "ATLETICOB": 3,
+        "VALENCIA": 9,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "9",
+        "ATLETICOM": 4,
+        "ATLETICOB": 10,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "10",
+        "ATLETICOM": 2,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "11",
+        "ATLETICOM": 2,
+        "ATLETICOB": 3,
+        "VALENCIA": 5,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "12",
+        "ATLETICOM": 3,
+        "ATLETICOB": 3,
+        "VALENCIA": 7,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "13",
+        "ATLETICOM": 2,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "14",
+        "ATLETICOM": 2,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    },
+    {
+        "name": "15",
+        "ATLETICOM": 3,
+        "ATLETICOB": 3,
+        "VALENCIA": 3,
+        "VILLAREAL": 4,
+        "CELTA": 5,
+        "SEVILLA": 7,
+        "BARCA": 10,
+        "REALM": 11
+    }
+    ],
+    "teamname": [
+        "ATLETICOB",
+        "ATLETICOM",
+        "VALENCIA",
+        "VILLAREAL",
+        "CELTA",
+        "SEVILLA",
+        "BARCA",
+        "REALM"
+    ],
+    "first": "LA LIGA"
+}

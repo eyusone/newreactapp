@@ -18,7 +18,6 @@ export class Select extends React.Component {
   
   componentDidMount(team) {
     this.props.setinitialTeam(team);
-    //console.log(this.props.state);
   }
 
   handleChange(event) {
@@ -30,8 +29,20 @@ export class Select extends React.Component {
     this.props.onSetStateNull();
   }
 
+
+
   render() {
 
+  var optionsdata = this.props.options.map(option => {return (
+                    <option key={option}
+                    value={option}
+                    label={option}>
+                    {option}
+                    </option>
+                    )}
+                )
+
+  const options = this.props.options;
   return (
     <div>
     <div className='container pb-4 pl-4 pr-4'>
@@ -48,15 +59,7 @@ export class Select extends React.Component {
               <option value='' disabled>
                 {this.props.first}
               </option>
-              {this.props.options.map(
-                option => {
-                  return (
-                    <option key={option}
-                    value={option}
-                    label={option}>
-                    {option}
-                    </option>
-                    );
+              {optionsdata
                 }
                 )
               }

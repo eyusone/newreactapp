@@ -1,0 +1,180 @@
+{
+    "table": [
+    {
+        "name": "1",
+        "BAYERNM": 3,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "2",
+        "BAYERNM": 3,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "3",
+        "BAYERNM": 2,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "4",
+        "BAYERNM": 2,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "5",
+        "BAYERNM": 1,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "6",
+        "BAYERNM": 4,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "7",
+        "BAYERNM": 8,
+        "BORUSSIAD": 3,
+        "MAINZ": 13,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "8",
+        "BAYERNM": 6,
+        "BORUSSIAD": 3,
+        "MAINZ": 9,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "9",
+        "BAYERNM": 4,
+        "BORUSSIAD": 10,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "10",
+        "BAYERNM": 2,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "11",
+        "BAYERNM": 2,
+        "BORUSSIAD": 3,
+        "MAINZ": 5,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "12",
+        "BAYERNM": 3,
+        "BORUSSIAD": 3,
+        "MAINZ": 7,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "13",
+        "BAYERNM": 2,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "14",
+        "BAYERNM": 2,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    },
+    {
+        "name": "15",
+        "BAYERNM": 3,
+        "BORUSSIAD": 3,
+        "MAINZ": 3,
+        "BORUSSIAM": 4,
+        "BAYER04": 5,
+        "FREIBURG": 7,
+        "SCHALKE04": 10,
+        "WOLFSBURG": 11
+    }
+    ],
+    "teamname": [
+        "BORUSSIAD",
+        "BAYERNM",
+        "MAINZ",
+        "BORUSSIAM",
+        "BAYER04",
+        "FREIBURG",
+        "SCHALKE04",
+        "WOLFSBURG"
+    ],
+    "first": "BUNDESLIGA"
+}

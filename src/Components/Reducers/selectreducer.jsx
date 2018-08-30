@@ -26,7 +26,7 @@ const Switches = (state = initialState, action) => {
         		value: undefined
       		})
 		default:
-			console.log(state); 
+			//console.log(state); 
 			return state
 		}
 	}
