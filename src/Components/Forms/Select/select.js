@@ -11,13 +11,15 @@ export class Select extends React.Component {
     super(props);
 
     this.handleChange = this.handleChange.bind(this);
-    const team = this.props.initTeam;
-    console.log(team);
+    //const team = this.props.initTeam;
+    //console.log(team);
   }
 
   
-  componentDidMount(team) {
-    this.props.setinitialTeam(team);
+  componentDidMount() {
+    const team = this.props.initTeam;
+    //console.log('didmount', team);
+    this.props.onSelectChange(team);
   }
 
   handleChange(event) {

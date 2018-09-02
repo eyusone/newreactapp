@@ -1,17 +1,17 @@
 /*const initialState = {
 	payload: 'ZENIT' 
 }*/
-/*const initialState = (state = [], action) => {
+const initialmyState = (state = [], action) => {
 	if (action.type == 'INIT_TEAM') {
 		//console.log(state);
 		return [...state,
 			action.value]
 		}
 
-	}*/
+	}
 
 const initialState = {
-	value: 'MILAN'
+	value: undefined
 }
 
 

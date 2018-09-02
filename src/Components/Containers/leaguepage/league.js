@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import './league.css';
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { Wrapper } from '../../Wrappers/wrapbut.js';
+// import { Wrapper } from '../../Wrappers/wrapbut.js';
 
 const text = [
   { name: 'RPL', fullname: 'SERIE A',
@@ -17,8 +17,8 @@ const text = [
 ];
 
 export default class Leaguepage extends Component {
-  constructor(props) {
-    	super(props);
+  constructor(props){
+      super(props);
   }
 
   render() {
@@ -30,7 +30,7 @@ export default class Leaguepage extends Component {
       <div className = 'container pl-0 pr-0 pb-0'>
         <div className = 'row align-items-center justify-content-center'>
 
-          {text.map((item, index) => {
+          {text.map((item) => {
             if (link === item.name) {
               return (
                 <div className='col-10 col-md-10 mr-1 pt-4' key = {item.name}
@@ -60,13 +60,13 @@ export default class Leaguepage extends Component {
                           style = {{ borderRadius: '50%', display: 'block', height: '363.56px' }}
                         >
                           <h3 className = 'p-1 display-4'
-                                                      style = {{ marginTop: '110px' }}
-                                                    >TABLE GRAPH</h3>
+                            style = {{ marginTop: '110px' }}
+                          >TABLE GRAPH</h3>
                           <p
-                                                      style = {{ fontSize: '20pt' }}
-                                                    >
-                                                                            Click to this circle
-                                                    </p>
+                            style = {{ fontSize: '20pt' }}
+                          >
+                              Кликни на кружок
+                          </p>
                         </Link>
 
 
@@ -81,13 +81,13 @@ export default class Leaguepage extends Component {
                           style = {{ borderRadius: '50%', display: 'block', height: '363.56px' }}
                         >
                           <h3 className = 'p-1 display-4'
-                                                      style = {{ marginTop: '110px' }}
-                                                    >SIMPLE TABLE</h3>
+                            style = {{ marginTop: '110px' }}
+                          >SIMPLE TABLE</h3>
                           <p
-                                                      style = {{ fontSize: '20pt' }}
-                                                    >
-                                                                            Click to this circle
-                                                    </p>
+                            style = {{ fontSize: '20pt' }}
+                          >
+                              Кликни на кружок
+                          </p>
                         </Link>
 
                       </div>

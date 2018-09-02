@@ -12,7 +12,6 @@ export class Element extends React.Component {
 
   componentDidMount() {
     // parse info here
-
     const url = `http://localhost:8080/src/Components/Containers/signin/${  this.props.url}`;
     // const url = "https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/" + this.props.url;
 
@@ -27,9 +26,11 @@ export class Element extends React.Component {
   }
 
   nameofteam(url) {
+    const teamname = [];
+
     switch (url) {
       case 'databox.json':
-        const teamname = [
+        teamname[0] = [
           'MILAN', 'INTER', 'JUVENTUS', 'NAPOLI',
           'ROMA',
           'ATALANTA',
@@ -37,9 +38,9 @@ export class Element extends React.Component {
           'FIORENTINA'
         ];
 
-        return teamname;
+        return teamname[0];
       case 'epl.json':
-        const teamnames = [
+        teamname[1] = [
           'MANUTD', 'CHELSEA', 'ARSENAL', 'TOTTENHAM',
           'EVERTON',
           'LIVERPOOL',
@@ -47,9 +48,9 @@ export class Element extends React.Component {
           'MANCITY'
         ];
 
-        return teamnames;
+        return teamname[1];
       case 'laliga.json':
-        const teamnamez = [
+        teamname[2] = [
           'REALM', 'BARCA', 'ATLETICOM', 'VILLAREAL',
           'SEVILLA',
           'VALENCIA',
@@ -57,9 +58,9 @@ export class Element extends React.Component {
           'CELTA'
         ];
 
-        return teamnamez;
+        return teamname[2];
       case 'bundesliga.json':
-        const teamnamex = [
+        teamname[3] = [
           'BAYERNM', 'BORUSSIAD', 'SCHALKE04', 'WOLFSBURG',
           'BORUSSIAM',
           'FREIBURG',
@@ -67,19 +68,20 @@ export class Element extends React.Component {
           'BAYER04'
         ];
 
-        return teamnamex;
+        return teamname[3];
     }
   }
 
   render() {
     const teams = this.nameofteam(this.props.url);
+    const datanames = ['databox.json', 'epl.json', 'laliga.json', 'bundesliga.json'];
+
 
     return (
       <Select name='team' first = {this.props.data.first} options={teams}
         identified = {
           this.props.data.table
-        }
-
+        } initTeam = {this.props.team}
       />
     );
   }

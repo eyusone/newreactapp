@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+// import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './apphead.css';
 
 export default class Apphead extends Component {
@@ -7,7 +7,7 @@ export default class Apphead extends Component {
     	super(props);
   }
 
-  render() {S
+  render() {
     return (
       <div className = 'container p-4'>
         <div className = 'row'>

@@ -5,10 +5,10 @@ import Sidebar from '../../Forms/Sidebar/sidebar.js';
 import Element from './tableview.js';
 
 const league = [
-  { name: 'RPL', url: 'databox.json' },
-  { name: 'EPL', url: 'epl.json' },
-  { name: 'LL', url: 'laliga.json' },
-  { name: 'Bundesliga', url: 'bundesliga.json' }
+  { name: 'RPL', url: 'databox.json', team: 'MILAN' },
+  { name: 'EPL', url: 'epl.json', team: 'MANUTD' },
+  { name: 'LL', url: 'laliga.json', team: 'REALM' },
+  { name: 'Bundesliga', url: 'bundesliga.json', team: 'BAYERNM' }
 ];
 
 export default class Table extends Component {
@@ -26,7 +26,7 @@ export default class Table extends Component {
         {league.map((item, index) => {
           if (item.name === ln) {
             // console.log(item.url);
-            return (<Element url = {item.url} key = {index}/>);
+            return (<Element url = {item.url} key = {index} team = {item.team}/>);
           }
         })
         }
