@@ -9,7 +9,7 @@ module.exports = {
     entry: "./src/index.js",
     output:{
         path: path.resolve(__dirname, 'public'), 
-        publicPath: '/public',
+        publicPath: '/public/',
         filename: "bundle.js"       
     },
 
@@ -24,6 +24,16 @@ module.exports = {
         rules:[   
             {
                 test: /\.jsx?$/, 
+                exclude: /(node_modules)/,  
+                loader:
+                    "babel-loader",
+                options: {
+                    presets:["env", "react"]
+                    //eslint: { configFile: '.eslintrc' }    
+                }
+            },
+            {
+                test: /\.js?$/, 
                 exclude: /(node_modules)/,  
                 loader:
                     "babel-loader",

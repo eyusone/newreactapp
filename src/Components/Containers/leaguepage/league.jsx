@@ -33,18 +33,14 @@ export default class Leaguepage extends Component {
                                 {text.map(function(item, index) {
                                     if (link === item.name) {
                                         return (
-                                            <div className="col-10 col-md-10 conts mr-1 pt-4" key = {item.name}
+                                            <div className="col-10 col-md-10 mr-1 pt-4" key = {item.name}
                                             style = {{paddingTop: '1%'}}>
 
                                                 
                                                     <div className = 'container m-0 p-2'>
                                                         <div className = 'row justify-content-center' 
                                                         style = {{height: '88%'}}>
-                                                            <p className = 'info'>
-                                                                    Clicking on the link you can get to the page with the schedule of the table.
-                                                                    The graph is drawn for each team, it is possible to select each command.
-                                                                     {content}
-                                                            </p>
+                                                            
 
                                                             {/*<figure>
                                                                 <img src = 'https://vignette.wikia.nocookie.net/necyklopedie/images/a/ab/Bean_Avatar.jpg/revision/latest?cb=20120117111843'
@@ -52,26 +48,37 @@ export default class Leaguepage extends Component {
                                                                 <figcaption>Simple image</figcaption>
                                                             </figure>*/}
 
-                                                            <div className = 'col pl-4 pr-4 pb-4 m-0 anim' 
-                                                            style = {{width: '50%'}}>                                              
+                                                            <div className = 'col pl-4 pr-4 pb-4 anim' 
+                                                            style = {{width: '50%', marginTop: '4%'}}>                                              
 
                                                                     
-                                                                        <Link to = {`/table/${link}`} key = {item.name} 
+                                                                        <Link to = {`/public/table/${link}`} key = {item.name} 
                                                                         className="btn btn-primary" 
-                                                                        style = {{borderRadius: '20px', display: 'block'}}>
-                                                                            <h3 className = 'm-0 p-1'>TABLE GRAPH</h3>
+                                                                        style = {{borderRadius: '50%', display: 'block', height: '363.56px'}}>
+                                                                            <h3 className = 'p-1 display-4'
+                                                                            style = {{marginTop: '110px'}}>TABLE GRAPH</h3>
+                                                                            <p
+                                                                            style = {{fontSize: '20pt'}}>
+                                                                            Click to this circle
+                                                                            </p>
                                                                         </Link>
                                                                     
                                                                                                                                 
                                                             </div>
 
-                                                            <div className = 'col pl-4 pr-4 pb-4 m-0 anim' style = {{width: '50%'}}>                                 
+                                                            <div className = 'col pl-4 pr-4 pb-4 anim' 
+                                                            style = {{width: '50%', marginTop: '4%'}}>                                 
                                                                     
-                                                                    <Link to = {`/scores/${link}`} 
-                                                                    className="btn btn-primary" 
-                                                                    style = {{borderRadius: '20px', display: 'block'}}> 
-                                                                        <h3 className = 'm-0 p-1'>SIMPLE TABLE</h3>
-                                                                    </Link>
+                                                                        <Link to = {`/public/scores/${link}`} 
+                                                                        className="btn btn-primary" 
+                                                                        style = {{borderRadius: '50%', display: 'block', height: '363.56px'}}> 
+                                                                            <h3 className = 'p-1 display-4'
+                                                                            style = {{marginTop: '110px'}}>SIMPLE TABLE</h3>
+                                                                            <p
+                                                                            style = {{fontSize: '20pt'}}>
+                                                                            Click to this circle
+                                                                            </p>
+                                                                        </Link>
                                                                     
                                                             </div>
                                                         </div>

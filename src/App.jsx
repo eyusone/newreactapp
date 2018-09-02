@@ -24,7 +24,8 @@ class App extends React.Component {
         constructor(props) {
             super(props);
             this.state = {
-                hideNav: window.innerWidth
+                hideNav: window.innerWidth,
+                hideHeight: window.innerHeight
             }
         }
 
@@ -35,7 +36,7 @@ class App extends React.Component {
         }
 
         resize() {
-            this.setState({hideNav: window.innerWidth});
+            this.setState({hideNav: window.innerWidth, hideHeight: window.innerHeight});
         }
 
         render () {
