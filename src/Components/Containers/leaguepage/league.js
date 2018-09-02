@@ -55,7 +55,7 @@ export default class Leaguepage extends Component {
                       >
 
 
-                        <Link to = {`/public/table/${link}`} key = {item.name}
+                        <Link to = {`/table/${link}`} key = {item.name}
                           className='btn btn-primary'
                           style = {{ borderRadius: '50%', display: 'block', height: '363.56px' }}
                         >
@@ -76,7 +76,7 @@ export default class Leaguepage extends Component {
                         style = {{ width: '50%', marginTop: '4%' }}
                       >
 
-                        <Link to = {`/public/scores/${link}`}
+                        <Link to = {`/scores/${link}`}
                           className='btn btn-primary'
                           style = {{ borderRadius: '50%', display: 'block', height: '363.56px' }}
                         >

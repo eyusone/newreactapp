@@ -22,19 +22,19 @@ export default class Quaters extends Component {
       <div className = 'container p-3' style = {{ margin: 'auto' }}>
         <div className = 'row align-items-start justify-content-center'>
 
-          <Link to = {`/public/league/${ln[0]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
+          <Link to = {`/league/${ln[0]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
             <Qtr label = 'SERIE A' src = '/public/img/ball.png' />
           </Link>
 
-          <Link to = {`/public/league/${ln[1]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
+          <Link to = {`/league/${ln[1]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
             <Qtr label = 'ENGLISH PREMIER LEAGUE' src = '/public/img/trophy.png'/>
           </Link>
 
-          <Link to = {`/public/league/${ln[2]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
+          <Link to = {`/league/${ln[2]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
             <Qtr label = 'LA LIGA' src = '/public/img/player.png'/>
           </Link>
 
-          <Link to = {`/public/league/${ln[3]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
+          <Link to = {`/league/${ln[3]}`} className = 'col-4 p-1 mr-4 mb-4 contents' style = {{ color: 'black' }}>
             <Qtr label = 'BUNDESLIGA' src = '/public/img/tshirt.png'/>
           </Link>
 
