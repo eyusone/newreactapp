@@ -4,7 +4,7 @@ import ReactDom from 'react-dom/server';
 //import App      from './App.jsx';
 
 import { match, RouterContext } from 'react-router';
-import routes from './routes.jsx';
+import routes from './routes.js';
 
 const app = express();
 

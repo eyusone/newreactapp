@@ -1,6 +1,6 @@
 import React, {Component, propTypes} from 'react';
 import './scores.css';
-import Table from './table.jsx';
+import Table from './table.js';
 
 export class Element extends React.Component {
 

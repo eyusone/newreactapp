@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import './league.css';
 import {Button} from 'reactstrap';
 import {Link} from 'react-router-dom';
-import {Wrapper} from '../../Wrappers/wrapbut.jsx';
+import {Wrapper} from '../../Wrappers/wrapbut.js';
 
 const text = [
 {name: 'RPL', fullname: 'SERIE A',

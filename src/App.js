@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 import './App.css';
 import 'bootswatch/dist/pulse/bootstrap.css';
 
-import Sidebar from './Components/Forms/Sidebar/sidebar.jsx';
+import Sidebar from './Components/Forms/Sidebar/sidebar.js';
 //import ScrollDown from './Components/Forms/ScrollDown/scrolldown.jsx';
-import Routes from './routes.jsx';
+import Routes from './routes.js';
 
 const Hello = () => {
     return(<div className = "container-fluid">

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Apphead from '../apphead/apphead.jsx';
-import Leaguepage from './league.jsx';
+import Apphead from '../apphead/apphead.js';
+import Leaguepage from './league.js';
 
 export default class League extends Component {
 	constructor(props) {

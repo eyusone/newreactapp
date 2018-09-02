@@ -1,7 +1,7 @@
 import React, {Component, propTypes} from 'react';
 import './scores.css';
 import {connect} from 'react-redux';
-import {getData, stateNull} from '../../Actions/index.jsx';
+import {getData, stateNull} from '../../Actions/index.js';
 
 export class Table extends React.Component {
 

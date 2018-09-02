@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Apphead from '../apphead/apphead.jsx';
-import Aboutpage from './aboutpage.jsx';
+import Apphead from '../apphead/apphead.js';
+import Aboutpage from './aboutpage.js';
  
 export default class About extends Component {
 	constructor(props) {

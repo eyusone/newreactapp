@@ -4,7 +4,7 @@ import './appquaters.css';
 import {Button} from 'reactstrap';
 import ReactHover from 'react-hover';
 import {Link} from 'react-router-dom';
-import Qtr from './qtr.jsx';
+import Qtr from './qtr.js';
 //import Wrpqtr from './qtr.jsx';
 //import Wrapper from '../../Wrappers/wraptrans.jsx';
 

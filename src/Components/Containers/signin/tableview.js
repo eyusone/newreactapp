@@ -1,8 +1,8 @@
 import React, {Component, propTypes} from 'react';
 import './table.css';
-import Select from '../../Forms/Select/select.jsx';
+import Select from '../../Forms/Select/select.js';
 import {connect} from 'react-redux';
-import {getData} from '../../Actions/index.jsx';
+import {getData} from '../../Actions/index.js';
 
 export class Element extends React.Component {
 

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Graph from '../../Containers/signin/graph/graph.jsx';
+import Graph from '../../Containers/signin/graph/graph.js';
 import {connect} from 'react-redux';
-import {switchTeam, stateNull, initialTeam} from '../../Actions/index.jsx';
+import {switchTeam, stateNull, initialTeam} from '../../Actions/index.js';
 
 const action = {switchTeam};
 

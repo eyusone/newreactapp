@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import Switches from './selectreducer.jsx';
-import Getdata from './getdatareducer.jsx';
-import GraphData from './graphreducer.jsx';
+import Switches from './selectreducer.js';
+import Getdata from './getdatareducer.js';
+import GraphData from './graphreducer.js';
 //import Statenull from './statenullreducer.jsx';
 
 const MainReducer = combineReducers({

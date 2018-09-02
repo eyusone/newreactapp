@@ -1,7 +1,7 @@
 import React, {Component, propTypes} from 'react';
 import './scores.css';
-import Apphead from '../apphead/apphead.jsx';
-import Element from './scoresview.jsx'
+import Apphead from '../apphead/apphead.js';
+import Element from './scoresview.js'
 
 const league = [
 {name: 'RPL', url: 'databox.json'},

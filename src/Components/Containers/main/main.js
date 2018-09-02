@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './main.css';
 
-import Quaters from '../../Containers/appquaters/appquaters.jsx';
-import Apphead from '../apphead/apphead.jsx';
+import Quaters from '../../Containers/appquaters/appquaters.js';
+import Apphead from '../apphead/apphead.js';
 
 export default class Main extends Component {
 	constructor(props) {

@@ -1,8 +1,8 @@
 import React, {Component, propTypes} from 'react';
 import './table.css';
-import Apphead from '../apphead/apphead.jsx';
-import Sidebar from '../../Forms/Sidebar/sidebar.jsx';
-import Element from './tableview.jsx'
+import Apphead from '../apphead/apphead.js';
+import Sidebar from '../../Forms/Sidebar/sidebar.js';
+import Element from './tableview.js'
 
 const league = [
 {name: 'RPL', url: 'databox.json'},
