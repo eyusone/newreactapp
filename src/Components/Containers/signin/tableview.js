@@ -12,8 +12,8 @@ export class Element extends React.Component {
 
   componentDidMount() {
     // parse info here
-    const url = `http://localhost:8080/src/Components/Containers/signin/${  this.props.url}`;
-    // const url = "https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/" + this.props.url;
+    // const url = `http://localhost:8080/src/Components/Containers/signin/${  this.props.url}`;
+    const url = `https://raw.githubusercontent.com/eyusone/newreactapp/master/src/Components/Containers/signin/${  this.props.url}`;
 
     fetch(url)
       .then(res => res.json())
