@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
 import './App.css';
@@ -17,15 +17,16 @@ import About from './Components/Containers/about/about.js';
 const Routes = () => (
 
   <Switch>
-	  <Route exact path='/' render={
-	  	Wrapper((props) => 
+    <Route exact path='/' render={
+	  	Wrapper((props) =>
 	  	(<Main {...props}/>))
-	  }/>
-	  <Route path = '/table/:ln' component = {Table}/>
-	  <Route path = '/scores/:ln' component = {Scores}/>
-	  <Route path = '/league/:ln' component = {League}/>
-	  <Route path = '/about' component = {About} />
+	  }
+    />
+    <Route path = '/table/:ln' component = {Table}/>
+    <Route path = '/scores/:ln' component = {Scores}/>
+    <Route path = '/league/:ln' component = {League}/>
+    <Route path = '/about' component = {About} />
   </Switch>
-  )
+);
 
 export default Routes;

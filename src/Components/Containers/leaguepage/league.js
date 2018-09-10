@@ -17,8 +17,8 @@ const text = [
 ];
 
 export default class Leaguepage extends Component {
-  constructor(props){
-      super(props);
+  constructor(props) {
+    super(props);
   }
 
   render() {
@@ -42,13 +42,6 @@ export default class Leaguepage extends Component {
                     <div className = 'row justify-content-center'
                       style = {{ height: '88%' }}
                     >
-
-
-                      {/* <figure>
-                                                                <img src = 'https://vignette.wikia.nocookie.net/necyklopedie/images/a/ab/Bean_Avatar.jpg/revision/latest?cb=20120117111843'
-                                                                 style = {{width: '100px', height: '100px', borderRadius: '20px'}}/>
-                                                                <figcaption>Simple image</figcaption>
-                                                            </figure>*/}
 
                       <div className = 'col pl-4 pr-4 pb-4 anim'
                         style = {{ width: '50%', marginTop: '4%' }}

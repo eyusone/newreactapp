@@ -47,15 +47,15 @@ export class Table extends React.Component {
       headers: myHeaders,
       cache: 'default' };
 
+
     fetch(base_url, myInit).then((res) => {
       res.json().then((data) => {
         // console.log(data.standings[0].table);
-        // console.log(res.status);
+        // console.log(res.url);
         this.props.getTableData(data.standings[0].table);
       });
     });
   }
-
   componentDidMount() {
     // props league
     const league = ['RPL', 'EPL', 'LL', 'Bundesliga'];
